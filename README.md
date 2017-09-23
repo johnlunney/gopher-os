@@ -8,7 +8,7 @@ The goal of this project is to build a 64-bit POSIX-compliant tick-less kernel
 with a Linux-compatible syscall implementation using [Go](https://golang.org). 
 
 This project is not about building yet another OS but rather exists to serve as
-proof that Go is indeed a suitable tool for writing low level code that runs
+proof that Go is indeed a suitable tool for writing low-level code that runs
 at ring-0.
 
 **Note**: This project is still in the early stages of development and is not yet
@@ -20,7 +20,7 @@ look at the [status](STATUS.md) page.
 
 ## Building and running gopher-os 
 
-TLDR version: `make run-qemu` or `make run-vbox`. 
+TL;DR version: `make run-qemu` or `make run-vbox`. 
 
 A detailed guide about building, running and debugging gopher-os on
 Linux/OSX as well as the list of supported boot command line options are
